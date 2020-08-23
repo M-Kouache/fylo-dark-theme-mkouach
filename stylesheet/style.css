@@ -63,6 +63,12 @@ header{
     } 
 }
 
+@media (max-width:300px){
+    .container {
+        margin: 50px 5px;
+    }
+}
+
 span{
     margin: 10px 10px;
 }
