@@ -25,7 +25,6 @@ body{
 
 header{
     font-family: 'Raleway', sans-serif;
-    
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -35,13 +34,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 76px 76px;
+    margin: 50px 76px;
 }
 
 @media (max-width: 650px) {
 
     .container{
-        margin: 76px 66px ;
+        margin: 50px 66px ;
+    }
+    .container a img{
+        width: 10px 10px;
     }
 }
 
@@ -55,7 +57,10 @@ header{
     .main-nav{
         display: flex;
         flex-direction: column;
-    }   
+    }  
+    .container{
+        margin: 50px 20px ;
+    } 
 }
 
 span{
