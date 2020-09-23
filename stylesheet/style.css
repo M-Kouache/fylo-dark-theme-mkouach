@@ -191,27 +191,25 @@ main{
     align-items: center;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
-    padding: 10px 10px;
+    padding: 10px 50px;
 }
 
 
 .pro-card h1 p {
     width: 100%;
+  
 }
 
 .pro-h1{
     width: 100%;
+
 }
 
 .pro-p{
     width: 100%;
 }
 
-@media (max-width:950px){
-    .productive{
-        flex-direction: column;
-    }
-}
+
 
 .pro-a{
     display: flex;
@@ -226,3 +224,153 @@ main{
 .pro-a:hover{
     color: hsl(198, 60%, 50%) ;
 }
+
+
+.co-workers{
+    display: flex;
+    flex-direction: column;
+    font-family:'Raleway', sans-serif ;
+    padding: 100px;
+
+}
+
+
+.workers-card{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 24px 0; 
+}
+
+.w-card{
+    width: 100%;
+    margin: 10px 10px;
+    padding: 20px;
+    background: hsl(217, 28%, 15%);
+    box-shadow: 5px 5px 5px hsl(217, 27%, 15%) ;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile img{
+    
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-container{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    font-family:'Raleway', sans-serif ;
+}
+
+.main-sub{
+    margin: 0 auto -100px;
+    width: 60vw;
+    text-align: center;
+    background:hsl(217, 28%, 15%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+
+}
+
+
+
+.input{
+    width: 400px;
+    height: 40px;
+    border :none;
+    border-radius: 25px;
+}
+
+.sub-btn{
+    text-decoration: none;
+    background:hsl(198, 60%, 50%) ;
+    color: inherit;
+    padding: 12px;
+    border:none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family:'Raleway', sans-serif ;
+    width: 100%;
+    
+}
+
+
+footer{
+    background: hsl(216, 53%, 9%);
+    margin: 0;
+
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.contact-bar ul  {
+    list-style: none;       
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.contact-li{
+    margin: 10px 10px;
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width:950px){
+    .productive{
+        flex-direction: column;
+    }
+
+    .workers-card{
+        flex-direction: column;
+    }
+
+    .w-card{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width: 1050px){
+    .sub-mobile{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+    }
+    .input{
+        border :none;
+        border-radius: 25px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}
+
