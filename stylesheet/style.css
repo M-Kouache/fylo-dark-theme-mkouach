@@ -372,5 +372,8 @@ footer{
         margin-bottom: 5px;
         width: 100%;
     }
+    .footer-container{
+        flex-direction: column;
+    }
 }
 
