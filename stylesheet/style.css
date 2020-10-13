@@ -20,6 +20,7 @@ body{
     font-family:'Open Sans', sans-serif; 
     color:hsl(0, 0%, 100%) ;
     min-width: fit-content;
+    position: relative;
     
 }
 
@@ -74,6 +75,7 @@ header{
     position: fixed;
     top: 50px;
     right: 20px;
+    cursor: pointer;
 
 }
 
@@ -115,6 +117,41 @@ header{
 
 span{
     margin: 10px 10px;
+}
+
+.sign-container{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sign-pup{
+    display: none;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: ivory;
+    box-shadow: 0px 0px 50px 5px black ;
+
+}
+
+#sign-pup.active{
+    display: block;
+}
+
+
+#close-signup-btn{
+    position: absolute;
+    padding: 2px 2px;
+    width: 20px;
+    height: 30px;
+    top: 2px;
+    right: 2px;
+    background-color: blue;
+    cursor: pointer;
 }
 
 .main-section{
